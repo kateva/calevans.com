@@ -65,7 +65,7 @@ input {color:$dark; border:solid 1px $light; border-radius:3px;}
 
 /** jumbotron full photo **/
 .header-photo {width:100%;}
-.full-photo {background: url("/wp-content/uploads/2019/07/header-home.jpg") center center no-repeat; background-size:cover; width:100%; display:flex; align-items:center; height:100%;}
+.full-photo {background: url("/wp-content/uploads/header-home.jpg") center center no-repeat; background-size:cover; width:100%; display:flex; align-items:center; height:100%;}
 .sm-hidden {display:block;}
 .jumbotron {padding-top:0;}
 
@@ -125,7 +125,7 @@ input {color:$dark; border:solid 1px $light; border-radius:3px;}
 
 .card-title {text-align:center;}
 .card-text {padding:.5rem;}
-.card-top {background: url("/wp-content/uploads/2019/07/card-image-background.png") center center no-repeat; height:100px; text-align:center;}
+.card-top {background: url("/wp-content/uploads/card-image-background.png") center center no-repeat; height:100px; text-align:center;}
 .card-icon {font-size:3rem; color:#767676; padding-top:1.5rem;}
 
 /** footer style **/

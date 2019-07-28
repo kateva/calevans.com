@@ -7696,7 +7696,7 @@ input {
   width: 100%; }
 
 .full-photo {
-  background: url("/wp-content/uploads/2019/07/header-home.jpg") center center no-repeat;
+  background: url("/wp-content/uploads/header-home.jpg") center center no-repeat;
   background-size: cover;
   width: 100%;
   display: flex;
@@ -7792,7 +7792,7 @@ input {
   padding: .5rem; }
 
 .card-top {
-  background: url("/wp-content/uploads/2019/07/card-image-background.png") center center no-repeat;
+  background: url("/wp-content/uploads/card-image-background.png") center center no-repeat;
   height: 100px;
   text-align: center; }
 
