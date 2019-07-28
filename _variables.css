@@ -1,0 +1,56 @@
+/*
+Error: $color: 'theme-color("primary")' is not a color for `darken'
+        on line 174 of /Users/Kathy/Local Sites/kateva/app/public/wp-content/themes/kateva/bootstrap/scss/_variables.scss
+
+169: //
+170: // Style anchor elements.
+171: 
+172: $link-color:                              theme-color("primary") !default;
+173: $link-decoration:                         none !default;
+174: $link-hover-color:                        darken($link-color, 15%) !default;
+175: $link-hover-decoration:                   underline !default;
+176: // Darken percentage for links with `.text-*` class (e.g. `.text-success`)
+177: $emphasized-link-hover-darken-percentage: 15% !default;
+178: 
+179: // Paragraphs
+
+Backtrace:
+/Users/Kathy/Local Sites/kateva/app/public/wp-content/themes/kateva/bootstrap/scss/_variables.scss:174
+/Applications/Adobe Dreamweaver CC 2019/Adobe Dreamweaver 2019.app/Contents/Resources/gems/rubygems/gems/sass-3.5.3/lib/sass/script/tree/funcall.rb:315:in `reformat_argument_error'
+/Applications/Adobe Dreamweaver CC 2019/Adobe Dreamweaver 2019.app/Contents/Resources/gems/rubygems/gems/sass-3.5.3/lib/sass/script/tree/funcall.rb:162:in `rescue in _perform'
+/Applications/Adobe Dreamweaver CC 2019/Adobe Dreamweaver 2019.app/Contents/Resources/gems/rubygems/gems/sass-3.5.3/lib/sass/script/tree/funcall.rb:131:in `_perform'
+/Applications/Adobe Dreamweaver CC 2019/Adobe Dreamweaver 2019.app/Contents/Resources/gems/rubygems/gems/sass-3.5.3/lib/sass/script/tree/node.rb:50:in `perform'
+/Applications/Adobe Dreamweaver CC 2019/Adobe Dreamweaver 2019.app/Contents/Resources/gems/rubygems/gems/sass-3.5.3/lib/sass/tree/visitors/perform.rb:482:in `visit_variable'
+/Applications/Adobe Dreamweaver CC 2019/Adobe Dreamweaver 2019.app/Contents/Resources/gems/rubygems/gems/sass-3.5.3/lib/sass/tree/visitors/base.rb:36:in `visit'
+/Applications/Adobe Dreamweaver CC 2019/Adobe Dreamweaver 2019.app/Contents/Resources/gems/rubygems/gems/sass-3.5.3/lib/sass/tree/visitors/perform.rb:162:in `block in visit'
+/Applications/Adobe Dreamweaver CC 2019/Adobe Dreamweaver 2019.app/Contents/Resources/gems/rubygems/gems/sass-3.5.3/lib/sass/stack.rb:79:in `block in with_base'
+/Applications/Adobe Dreamweaver CC 2019/Adobe Dreamweaver 2019.app/Contents/Resources/gems/rubygems/gems/sass-3.5.3/lib/sass/stack.rb:135:in `with_frame'
+/Applications/Adobe Dreamweaver CC 2019/Adobe Dreamweaver 2019.app/Contents/Resources/gems/rubygems/gems/sass-3.5.3/lib/sass/stack.rb:79:in `with_base'
+/Applications/Adobe Dreamweaver CC 2019/Adobe Dreamweaver 2019.app/Contents/Resources/gems/rubygems/gems/sass-3.5.3/lib/sass/tree/visitors/perform.rb:162:in `visit'
+/Applications/Adobe Dreamweaver CC 2019/Adobe Dreamweaver 2019.app/Contents/Resources/gems/rubygems/gems/sass-3.5.3/lib/sass/tree/visitors/base.rb:52:in `block in visit_children'
+/Applications/Adobe Dreamweaver CC 2019/Adobe Dreamweaver 2019.app/Contents/Resources/gems/rubygems/gems/sass-3.5.3/lib/sass/tree/visitors/base.rb:52:in `map'
+/Applications/Adobe Dreamweaver CC 2019/Adobe Dreamweaver 2019.app/Contents/Resources/gems/rubygems/gems/sass-3.5.3/lib/sass/tree/visitors/base.rb:52:in `visit_children'
+/Applications/Adobe Dreamweaver CC 2019/Adobe Dreamweaver 2019.app/Contents/Resources/gems/rubygems/gems/sass-3.5.3/lib/sass/tree/visitors/perform.rb:171:in `block in visit_children'
+/Applications/Adobe Dreamweaver CC 2019/Adobe Dreamweaver 2019.app/Contents/Resources/gems/rubygems/gems/sass-3.5.3/lib/sass/tree/visitors/perform.rb:183:in `with_environment'
+/Applications/Adobe Dreamweaver CC 2019/Adobe Dreamweaver 2019.app/Contents/Resources/gems/rubygems/gems/sass-3.5.3/lib/sass/tree/visitors/perform.rb:170:in `visit_children'
+/Applications/Adobe Dreamweaver CC 2019/Adobe Dreamweaver 2019.app/Contents/Resources/gems/rubygems/gems/sass-3.5.3/lib/sass/tree/visitors/base.rb:36:in `block in visit'
+/Applications/Adobe Dreamweaver CC 2019/Adobe Dreamweaver 2019.app/Contents/Resources/gems/rubygems/gems/sass-3.5.3/lib/sass/tree/visitors/perform.rb:190:in `visit_root'
+/Applications/Adobe Dreamweaver CC 2019/Adobe Dreamweaver 2019.app/Contents/Resources/gems/rubygems/gems/sass-3.5.3/lib/sass/tree/visitors/base.rb:36:in `visit'
+/Applications/Adobe Dreamweaver CC 2019/Adobe Dreamweaver 2019.app/Contents/Resources/gems/rubygems/gems/sass-3.5.3/lib/sass/tree/visitors/perform.rb:161:in `visit'
+/Applications/Adobe Dreamweaver CC 2019/Adobe Dreamweaver 2019.app/Contents/Resources/gems/rubygems/gems/sass-3.5.3/lib/sass/tree/visitors/perform.rb:10:in `visit'
+/Applications/Adobe Dreamweaver CC 2019/Adobe Dreamweaver 2019.app/Contents/Resources/gems/rubygems/gems/sass-3.5.3/lib/sass/tree/root_node.rb:36:in `css_tree'
+/Applications/Adobe Dreamweaver CC 2019/Adobe Dreamweaver 2019.app/Contents/Resources/gems/rubygems/gems/sass-3.5.3/lib/sass/tree/root_node.rb:29:in `render_with_sourcemap'
+/Applications/Adobe Dreamweaver CC 2019/Adobe Dreamweaver 2019.app/Contents/Resources/gems/rubygems/gems/sass-3.5.3/lib/sass/engine.rb:389:in `_render_with_sourcemap'
+/Applications/Adobe Dreamweaver CC 2019/Adobe Dreamweaver 2019.app/Contents/Resources/gems/rubygems/gems/sass-3.5.3/lib/sass/engine.rb:307:in `render_with_sourcemap'
+/Applications/Adobe Dreamweaver CC 2019/Adobe Dreamweaver 2019.app/Contents/Resources/gems/rubygems/gems/sass-3.5.3/lib/sass/exec/sass_scss.rb:391:in `run'
+/Applications/Adobe Dreamweaver CC 2019/Adobe Dreamweaver 2019.app/Contents/Resources/gems/rubygems/gems/sass-3.5.3/lib/sass/exec/sass_scss.rb:63:in `process_result'
+/Applications/Adobe Dreamweaver CC 2019/Adobe Dreamweaver 2019.app/Contents/Resources/gems/rubygems/gems/sass-3.5.3/lib/sass/exec/base.rb:52:in `parse'
+/Applications/Adobe Dreamweaver CC 2019/Adobe Dreamweaver 2019.app/Contents/Resources/gems/rubygems/gems/sass-3.5.3/lib/sass/exec/base.rb:19:in `parse!'
+/Applications/Adobe Dreamweaver CC 2019/Adobe Dreamweaver 2019.app/Contents/Resources/gems/rubygems/gems/sass-3.5.3/bin/sass:13:in `<top (required)>'
+/Applications/Adobe Dreamweaver CC 2019/Adobe Dreamweaver 2019.app/Contents/Resources/gems/bin/sass:37:in `load'
+/Applications/Adobe Dreamweaver CC 2019/Adobe Dreamweaver 2019.app/Contents/Resources/gems/bin/sass:37:in `<main>'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: $color: 'theme-color(\"primary\")' is not a color for `darken'\A         on line 174 of /Users/Kathy/Local Sites/kateva/app/public/wp-content/themes/kateva/bootstrap/scss/_variables.scss\A \A 169: //\A 170: // Style anchor elements.\A 171: \A 172: $link-color:                              theme-color(\"primary\") !default;\A 173: $link-decoration:                         none !default;\A 174: $link-hover-color:                        darken($link-color, 15%) !default;\A 175: $link-hover-decoration:                   underline !default;\A 176: // Darken percentage for links with `.text-*` class (e.g. `.text-success`)\A 177: $emphasized-link-hover-darken-percentage: 15% !default;\A 178: \A 179: // Paragraphs"; }
